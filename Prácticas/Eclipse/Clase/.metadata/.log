@@ -1,0 +1,249 @@
+!SESSION 2025-11-06 11:32:48.917 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:32:51.838
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-06 11:32:52.043
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:33:26.851
+!MESSAGE Logback config file: C:\Users\Mañana\Documents\akoarguel\Sistemas-de-Aprendizaje-Automatico\Prácticas\Eclipse\Clase\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-06 11:33:37.831
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mañana'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-06 11:37:04.475
+!MESSAGE ex-0000000061 Cookie rejected [_cfuvid="FfW11MTI2inxoYQ2uHxMNDgVGJWzzVbD.s.lLn0c_y0-1762425424422-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-06 11:37:09.576
+!MESSAGE ex-0000000062 Cookie rejected [_cfuvid="M159DMijtDwgmMWcOLt6QnwkVQ9dGGonh4XiLG_SJHE-1762425429775-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-06 11:37:10.004
+!MESSAGE ex-0000000063 Cookie rejected [_cfuvid="XCzCBmtTfrqqP1tczX9hgaIZs3qc3W_8ZhCuU_NAMYw-1762425430203-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-06 11:37:10.602
+!MESSAGE ex-0000000064 Cookie rejected [_cfuvid="Ll8V1sguCeklDoTY92kv7xABHYBEKr5fLs3nZ4NPH4Q-1762425430800-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-06 11:38:41.393
+!MESSAGE ex-0000000171 Cookie rejected [_cfuvid=".sAIWfHY7Qghcv6oP33adJe_lOTBb1sJNBcGI9Ts96I-1762425521589-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-06 11:38:44.933
+!MESSAGE ex-0000000172 Cookie rejected [_cfuvid="C086yUKGDyLmx9FdR_m3eARShGyx1W4BPE6wNqLEtis-1762425525134-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-06 11:38:45.202
+!MESSAGE ex-0000000173 Cookie rejected [_cfuvid="r2vJOvt0gbDw2qwak3lAytdbp6OF4PLS3MySt1pJXys-1762425525402-0.0.1.1-604800000", domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "www.codetogether.com"
+!SESSION 2025-11-06 11:40:16.805 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Mañana/Documents/akoarguel/Sistemas-de-Aprendizaje-Automatico/Prácticas/Eclipse/Clase/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:40:22.061
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-06 11:40:22.339
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY com.genuitec.eclipse.startup 4 0 2025-11-06 11:40:34.528
+!MESSAGE wmic Windows Defender check failed
+!STACK 0
+java.io.IOException: Cannot run program "wmic": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at java.base/java.lang.Runtime.exec(Runtime.java:681)
+	at java.base/java.lang.Runtime.exec(Runtime.java:530)
+	at com.genuitec.eclipse.startup.util.WindowsDefenderChecker.isWindowsDefenderActive(WindowsDefenderChecker.java:124)
+	at com.genuitec.eclipse.startup.util.WindowsDefenderChecker.checkWindowsDefender(WindowsDefenderChecker.java:90)
+	at com.genuitec.eclipse.startup.util.WindowsDefenderChecker.checkWindowsDefender(WindowsDefenderChecker.java:85)
+	at com.genuitec.eclipse.startup.util.WindowsDefenderChecker.checkWindowsDefenderIfNeeded(WindowsDefenderChecker.java:599)
+	at com.genuitec.eclipse.startup.StartupHandler.lambda$0(StartupHandler.java:62)
+	at com.genuitec.eclipse.startup.StartupHandler.handleWorkspaceSet(StartupHandler.java:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.handleWorkspaceSet(IDEApplication.java:625)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:260)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:175)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:506)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 24 more
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:40:35.427
+!MESSAGE Logback config file: C:\Users\Mañana\Documents\akoarguel\Sistemas-de-Aprendizaje-Automatico\Prácticas\Eclipse\Clase\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-11-06 11:40:36.033
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-11-06 11:40:36.033
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-11-06 11:40:36.444
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-11-06 11:40:36.467
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-06 11:40:40.512
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mañana'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:40:46.726
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:40:54.084
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:41:05.348
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:41:24.613
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:41:59.870
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:43:07.182
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:44:14.455
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+!SESSION 2025-11-06 11:44:50.314 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Mañana/Documents/akoarguel/Sistemas-de-Aprendizaje-Automatico/Prácticas/Eclipse/Clase/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:44:51.997
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-06 11:44:52.199
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:44:54.570
+!MESSAGE Logback config file: C:\Users\Mañana\Documents\akoarguel\Sistemas-de-Aprendizaje-Automatico\Prácticas\Eclipse\Clase\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-06 11:44:59.660
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mañana'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:45:01.640
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2025-11-06 11:45:06.879
+!MESSAGE Performing Marketplace install request from https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=5573556
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:45:08.955
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:45:20.332
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-06 11:45:25.717
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.github.eclipsecolortheme.feature,1.0.0.201410260308 from repository https://eclipse-color-theme.github.io/update/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-06 11:45:25.717
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.github.eclipsecolortheme,1.0.0.201410260308 from repository https://eclipse-color-theme.github.io/update/.
+!SESSION 2025-11-06 11:45:38.012 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Mañana/Documents/akoarguel/Sistemas-de-Aprendizaje-Automatico/Prácticas/Eclipse/Clase/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:45:40.655
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-06 11:45:40.878
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:45:43.290
+!MESSAGE Logback config file: C:\Users\Mañana\Documents\akoarguel\Sistemas-de-Aprendizaje-Automatico\Prácticas\Eclipse\Clase\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-06 11:45:48.224
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mañana'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:45:50.216
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:45:57.519
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:46:08.834
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:46:28.101
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+!SESSION 2025-11-06 11:47:00.483 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Mañana/Documents/akoarguel/Sistemas-de-Aprendizaje-Automatico/Prácticas/Eclipse/Clase/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:47:02.409
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-06 11:47:02.750
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-06 11:47:05.693
+!MESSAGE Logback config file: C:\Users\Mañana\Documents\akoarguel\Sistemas-de-Aprendizaje-Automatico\Prácticas\Eclipse\Clase\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-06 11:47:11.111
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mañana'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:47:12.994
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:47:20.321
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:47:31.634
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:47:51.147
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2025-11-06 11:48:26.465
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url

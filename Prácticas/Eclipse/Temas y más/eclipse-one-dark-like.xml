@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="9999" name="One Dark Like" modified="2015-09-01 19:55:49" author="Adam Gent" website="http://snaphop.com">
+    <searchResultIndication color="#E5C07B" />
+    <filteredSearchResultIndication color="#E5C07B" />
+    <occurrenceIndication color="#4B4E55" />
+    <writeOccurrenceIndication color="#4B4E55" />
+    <findScope color="#4B4E55" />
+    <deletionIndication color="#DF5F5F" />
+    <sourceHoverBackground color="#4B4E55" />
+    <singleLineComment color="#969896" italic="false" />
+    <multiLineComment color="#969896" italic="false" />
+    <commentTaskTag color="#969896" />
+    <javadoc color="#969896" italic="false" />
+    <javadocLink color="#969896" />
+    <javadocTag color="#CED1CF" />
+    <javadocKeyword color="#CED1CF" />
+    <!-- old F0C674 ==> E5C07B -->
+    <class color="#E5C07B" />
+    <!-- B294BB -->
+    <interface color="#E5C07B" />
+    <method color="#ABB2BF" />
+    <methodDeclaration color="#61AFEF" />
+    <bracket color="#ABB2BF" />
+    <number color="#D19A66" />
+    <!-- 98C379 -->
+    <string color="#98C379" />
+    <operator color="#CED1CF" />
+    <!-- old B294BB-->
+    <keyword color="#C678DD" />
+    <!-- annotation old 4B4E55 ==> D19A66 -->
+    <annotation color="#D19A66" />
+    <staticMethod color="#ABB2BF" />
+    <!-- Red old CC6666 ==> E06C75 -->
+    <localVariable color="#E06C75" />
+    <localVariableDeclaration color="#E06C75" />
+    <!-- Orange DE935F ==> D19A66 -->
+    <field color="#D19A66" />
+    <staticField color="#D19A66" />
+    <staticFinalField color="#D19A66" />
+    <deprecatedMember color="#4B4E55" underline="false" strikethrough="false" />
+    <!-- old enum color same as field D19A66 => E5C07B -->
+    <enum color="#E5C07B" />
+    <inheritedMethod color="#ABB2BF" />
+    <abstractMethod color="#ABB2BF" />
+    <parameterVariable color="#E06C75" />
+    <typeArgument color="#D19A66" />
+    <typeParameter color="#D19A66" />
+    <constant color="#D19A66" bold="false" underline="false" strikethrough="false" />
+    <!-- atom hue 3 purple: 9344ab, actual c678dd -->
+    <!-- atom hue 4 green: 7b9e62, actual 98C379 -->
+    <!-- atom fg: 9ca4b5, actual abb2bf -->
+    <!-- atom bg: 282a2e, actual 282C35 -->
+    <!-- atom line number: 393c42, actual 4b5363 -->
+    <!-- atom selection: actual 3E4451 -->
+    <!-- atom cursor: 0038a8 -->
+    <!-- 282C35 222,25,21 40,44,53 -->
+
+    <background color="#282C35" />
+    <!-- atom line hilight actual 2C323B -->
+    <currentLine color="#2C323B" />
+    <foreground color="#ABB2BF" />
+    <!-- old line: 828791 -->
+    <lineNumber color="#4B5363" />
+    <!-- atom selection wrong color: 3e4147 -->
+    <!-- old color 373B41 -->
+    <selectionBackground color="#3E4451" />
+    <!-- not sure what this is -->
+    <selectionForeground color="#C5C8C6" />
+</colorTheme>
