@@ -47,12 +47,48 @@ print("\nMultiplicación x * y: \n", x * y)
 print("\nProducto escalar np.dot(x,y):\n", np.dot(x,y))
 print("\nDivisión x / y: \n", x / y)
 
-#%% matplotlib
+#%% Matplotlib
+
 x = [1,2,3,4]
 y = [10,20,25,30]
 plt.plot(x, y, marker='o')
 plt.title("ejemplo de gráfico")
 plt.xlabel("eje x")
 plt.ylabel("eje y")
+
 plt.show()
 
+fig, axs = plt.subplots(2,2, figsize=(8,4))
+axs[0,0].plot(x, y, marker='*')
+axs[0,0].set_title('Linea')
+axs[0,1].bar(x, y, color="y")
+axs[0,1].set_title('Barras')
+axs[1,0].scatter(x, y, color='red')
+axs[1,0].set_title('Dispersión')
+axs[1,1].hist(y, bins=4, color='purple')
+axs[1,1].set_title('Histograma')
+
+#%% Sección 2, 
+x = [1,2,3,4]
+y = [10,20,25,30]
+plt.plot(x, y, marker='o')
+plt.title("ejemplo de gráfico")
+plt.xlabel("eje x")
+plt.ylabel("eje y")
+plt.xlim(0, 5)
+plt.ylim(0,505)
+plt.show()
+
+fig, axs = plt.subplots(2,2, figsize=(8,4))
+axs[0,0].plot(x, y, marker='*')
+axs[0,0].set_title('Linea')
+
+axs[0,0].set_xlim(0,5)
+axs[0,0].set_ylim(0,35)
+
+axs[0,1].bar(x, y, color="y")
+axs[0,1].set_title('Barras')
+axs[1,0].scatter(x, y, color='red')
+axs[1,0].set_title('Dispersión')
+axs[1,1].hist(y, bins=4, color='purple')
+axs[1,1].set_title('Histograma')
