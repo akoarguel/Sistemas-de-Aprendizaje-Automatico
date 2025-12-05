@@ -218,13 +218,122 @@ def cargarDatos():
 dfDatos = cargarDatos()
 print("\n\nTipo de datos: ")
 print(type(dfDatos))
-print("\n\nDataframe dfDatos-------------------")
+print("\n\nDataframe dfDatos-------------------\n")
 print(dfDatos)
-print("\n\nVer si hay algun null---------------")
+print("\n\nVer si hay algun null---------------\n")
 print(dfDatos.isnull())
-print("\n\nLa suma de cuantos null hay---------")
+print("\n\nLa suma de cuantos null hay---------\n")
 print(dfDatos.isnull().sum())
 
+dfDatos= dfDatos.dropna(subset=['Store', 'Date', 'Weekly_Sales'])
+dfDatos = dfDatos.reset_index(drop=True)
+print("\n\nDataframe dfDatos tras dropna--------:\n")
+print(dfDatos)
+# Imputaciones de valores faltantes
+# Holiday_Flag = 0
+dfDatos['Holiday_Flag'] = dfDatos['Holiday_Flag'].fillna(0)
+# Temperature -> media
+media_temp = dfDatos['Temperature'].mean()
+dfDatos['Temperature'] = dfDatos['Temperature'].fillna(media_temp)
+# Fuel_Price -> mediana
+mediana_fuel = dfDatos['Fuel_Price'].median()
+dfDatos['Fuel_Price'] = dfDatos['Fuel_Price'].fillna(mediana_fuel)
+# CPI -> moda
+moda_cpi = dfDatos['CPI'].mode()[0]
+dfDatos['CPI'] =  dfDatos['CPI'].fillna(moda_cpi)
+# Unemployment -> Q1
+q1_unemployment = dfDatos['Unemployment'].quantile(0.25)
+dfDatos['Unemployment'] = dfDatos['Unemployment'].fillna(q1_unemployment)
+
+print("\nNulos después de imputación: ")
+print(dfDatos.isnull().sum())
+print("----")
+print(moda_cpi)
+print(mediana_fuel)
+print(media_temp)
+
+from sklearn.model_selection import train_test_split
+
+df_X = pd.DataFrame(dfDatos, columns=[
+    'Store', 'Date', 'Holiday_Flag', 'Termperature', 'Fuel_Price', 'CPI',
+    'Unemployment', 'Weekly_Rains', 'Weekly_Discounts'])
+df_Y = pd.DataFrame(dfDatos, columns=['Weekly_Sales'])
+
+df_X_train, df_X_test, df_Y_train, df_Y_test = train_test_split(df_X, df_Y,
+                                            test_size=0.2, random_state=100)
+### test_size= 0.2 (20% de prueba)
+print("\nCantidad de filas y columnas de X: ", df_X.shape)
+print("\nCantidad de filas y columnas de X_train: ", df_X_train.shape)
+print("\nCantidad de filas y columnas de X_test: ", df_X_test.shape)
+
+print("\nCantidad de filas y columnas de Y: ", df_Y.shape)
+print("\nCantidad de filas y columnas de Y_train: ", df_Y_train.shape)
+print("\nCantidad de filas y columnas de Y_train: ", df_Y_test.shape)
+
+print("\n\nDataFrame df_X: ")
+# (Usamos .head() para mostrar los 5 primeros)
+print(df_X)
+print("\n\nDataFrame df_X_train: ")
+print(df_X_train)
+print("\n\nDataFrame df_X_test: ")
+print(df_X_test)
+
+#%% Ejercicio 2 walmart - train_test_split
+"""
+1 Carga el archivo walmart.csv en un DataFrame llamado dfTiendas. 
+    Elimina todas las filas que contengan valores nulos en las columnas ‘Store’, 
+    ‘Weekly_Sales’ y ‘Fuel_Price’. Después, reinicia el índice del DataFrame 
+    para que las filas queden correctamente numeradas. Por último, muestra el
+    DataFrame resultante después de la limpieza.
+"""
+import pandas as pd
+
+dfTiendas = pd.DataFrame()
+dfTiendas = pd.read_csv( r"C:\Users\Mañana\Documents\akoarguel\Sistemas-de-Aprendizaje-Automatico\Prácticas\UNIDAD 2\Ejemplos clase - spyder\Walmart_Sales.csv")
+dfTiendas= dfTiendas.dropna(subset=['Store', 'Weekly_Sales', 'Fuel_Price'])
+dfTiendas = dfTiendas.reset_index(drop=True)
+print("\n\nDataframe dfDatos tras dropna--------:\n")
+print(dfTiendas)
+"""
+2 A partir del DataFrame del ejercicio anterior, realiza imputaciones personalizadas:
+    - Sustituye los valores nulos en ‘Holiday_Flag’ por 1.
+    - Sustituye los valores nulos en ‘CPI’ por la lo más frecuente de esa columna.
+    - Sustituye los valores nulos en ‘Temperature’ por el valor mínimo (min) de la columna.
+"""
+# Holiday_Flag = 1
+dfTiendas['Holiday_Flag'] = dfTiendas['Holiday_Flag'].fillna(1)
+# CPI -> moda
+moda_cpi = dfTiendas['CPI'].mode()[0]
+### te devuelve el primer valor de un array (porque pueden estar empatados)
+dfTiendas['CPI'] =  dfTiendas['CPI'].fillna(moda_cpi)
+# Temperature -> valor minimo
+minimo = dfTiendas['Temperature'].min()
+dfTiendas['Temperature'] = dfTiendas['Temperature'].fillna(minimo)
+
+print("\nNulos después de imputación: ")
+print(dfTiendas.isnull().sum())
+print("----")
+print(moda_cpi)
+print(minimo)
+
+"""
+3 Realiza una última imputación para sustituir los valores nulos en ‘Unemployment’ 
+    por el cuartil 3 (Q3) de esa columna. Actualiza el DataFrame y muestra
+    cuántos nulos quedan por columna. Verifica que no quedan datos ausentes.
+"""
+# Unemployment -> Q1
+q3_unemployment = dfTiendas['Unemployment'].quantile(0.25)
+dfTiendas['Unemployment'] = dfTiendas['Unemployment'].fillna(q3_unemployment)
+"""
+4 A partir del DataFrame dfTiendas ya limpio y sin valores nulos, crea dos 
+    nuevos DataFrames:
+        •	df_X con columnas ['Store', 'Holiday_Flag', 'Temperature', 
+                                'Fuel_Price', 'CPI', 'Unemployment']
+        •	df_Y con la columna ['Weekly_Sales']
+    Una vez creados, utiliza la función train_test_split() para dividir los 
+    datos en 85% entrenamiento y 15% test
+"""
+...
 #%% Ejercicio 1 walmart
 """
 1. Carga walmart.csv, crea dos columnas categóricas (no numéricas) nuevas
@@ -283,6 +392,4 @@ print("\n\nVer si hay algun null----------:\n")
 print(dfDatos.isnull())
 print("\n\nLa suma de cuantos null hay----------:\n")
 print(dfDatos.isnull().sum())
-
-
 
