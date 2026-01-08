@@ -393,3 +393,4 @@ print(dfDatos.isnull())
 print("\n\nLa suma de cuantos null hay----------:\n")
 print(dfDatos.isnull().sum())
 
+
